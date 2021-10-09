@@ -1,21 +1,18 @@
 .profile {
     position: relative;
     display: flex;
-    align-items: flex-end;
-    align-items: flex-start;
-    // top: 10px;
+    align-items: center;
+    justify-content: flex-end;
     gap: 30px;
-    // margin: 0 0 0 10%;
-    // padding: 0px 10%;
     font-size: 20px;
     cursor: pointer;
 
-    @media (max-width: 1359px) {
-        display: block;
-        @media (max-width: 1299px) {
-            display: none;
-        }
-    }
+    // @media (max-width: 1359px) {
+    //     display: block;
+    //     @media (max-width: 1299px) {
+    //         display: none;
+    //     }
+    // }
 
     .profText:hover {
         transition: 0.2s;
