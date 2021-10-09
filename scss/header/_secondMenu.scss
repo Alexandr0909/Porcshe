@@ -1,0 +1,23 @@
+.secondMenu {
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    width: 100vw;
+    height: 50vh;
+    left: 0px;
+    text-align: start;
+    margin: 20% 0 0 -301%;
+    transition: 0.4s;
+    z-index: 1;
+    .cecondContentConfig {
+        font-size: 23px;
+
+        p {
+            border: 1px solid #000;
+            width: 345px;
+            height: 55px;
+        }
+    }
+}

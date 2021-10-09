@@ -1,0 +1,24 @@
+.profile {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    align-items: flex-start;
+    // top: 10px;
+    gap: 30px;
+    // margin: 0 0 0 10%;
+    // padding: 0px 10%;
+    font-size: 20px;
+    cursor: pointer;
+
+    @media (max-width: 1359px) {
+        display: block;
+        @media (max-width: 1299px) {
+            display: none;
+        }
+    }
+
+    .profText:hover {
+        transition: 0.2s;
+        color: red;
+    }
+}
