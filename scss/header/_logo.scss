@@ -1,16 +1,22 @@
-.logo{
+.logo {
+    position: relative;
+    margin: 0 0 0 9%;
+    width: 183px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #dfdfdf;
     position: relative;
     display: block;
-    border: 1px solid #dfdfdf;
     background-color: #fff;
-    background-image: url(/img/porschelogo.png);
+    background-image: url(/img/porschelogosec.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 2;
-    width: 200px;
-    min-width: 105px;
-    height: 230px;
-    min-height: 105px;
-    // top: 0px;
+    // width: 200px;
+    // min-width: 105px;
+    // height: 230px;
+    // min-height: 105px;
 }
+
+// border: 1px solid #dfdfdf;
