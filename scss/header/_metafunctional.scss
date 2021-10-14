@@ -1,0 +1,24 @@
+.metafunctional {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    grid-gap: 30px;
+    top: 60px;
+    margin: 0 0 0 250px;
+    text-align: center;
+
+    .mbfirst {
+        font-size: 29px;
+
+.mbsecondt{
+    position: relative;
+    font-size: 19px;
+    top: -30px;
+    left: 30px;
+}
+
+        &:hover{
+            color: #ff0000;
+        }
+    }
+}
