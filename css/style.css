@@ -14,16 +14,16 @@ header {
   font-size: 22px;
   margin: 0;
   width: 100%;
-  height: 165px;
+  height: 125px;
   background-color: #fff;
-  border-bottom: 3px solid #e3e4e5;
+  border-bottom: 1px solid #e3e4e5;
 }
 
 .logo {
   position: relative;
   margin: 0 0 0 9%;
-  width: 175px;
-  height: 200px;
+  width: 160px;
+  height: 150px;
   background-color: #fff;
   border: 2px solid #dfdfdf;
   position: relative;
@@ -86,11 +86,162 @@ header {
   color: #ff0000;
 }
 
+.carousel-caption {
+  font-weight: bold;
+  transition: 0.24s;
+}
+.carousel-caption h5 {
+  text-align: left;
+  font-size: 65px;
+}
+.carousel-caption p {
+  text-align: left;
+  font-size: 26px;
+}
+.carousel-caption:hover {
+  color: #ff0000;
+}
+
 main {
   margin: 0;
   width: 100%;
   height: 86vh;
   background-color: #7ed9f5;
+}
+main .line_text {
+  font-size: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 1% 0% 1% 10%;
+  background-color: #fff;
+  font-weight: bold;
+  transition: 0.24s;
+}
+
+* {
+  margin: 0px;
+}
+* .model-box {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(530px, 1fr));
+  grid-template-rows: 470px 470px;
+  grid-auto-rows: minmax(196px, auto);
+  grid-gap: 0px;
+  background-color: rgba(0, 0, 0, 0.444);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* .model-box .price {
+  font-size: 23px;
+  margin: 0px 50px;
+}
+* .model-box .car-box {
+  background-color: rgba(0, 0, 0, 0.555);
+  color: #fff;
+  text-align: left;
+}
+* .model-box .car-box h1 {
+  margin: 0px 50px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: 600;
+}
+* .model-box .car-718 {
+  background-image: url(/img/porsche-718.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.6s;
+}
+* .model-box .car-718:hover {
+  background-size: 105%;
+}
+* .model-box .car-911 {
+  background-image: url(/img/porsche-911.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.6s;
+}
+* .model-box .car-911:hover {
+  background-size: 105%;
+}
+* .model-box .car-taycan {
+  background-image: url(/img/porsche-taycan.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.6s;
+}
+* .model-box .car-taycan:hover {
+  background-size: 105%;
+}
+* .model-box .car-panamera {
+  background-image: url(/img/porsche-panamera.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.6s;
+}
+* .model-box .car-panamera:hover {
+  background-size: 105%;
+}
+* .model-box .car-macan {
+  background-image: url(/img/porsche-small.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.6s;
+}
+* .model-box .car-macan:hover {
+  background-size: 105%;
+}
+* .model-box .car-cayenne {
+  background-image: url(/img/porsche-cayenne.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.6s;
+}
+* .model-box .car-cayenne:hover {
+  background-size: 105%;
+}
+
+.all-mod {
+  position: absolute;
+  margin: 275px 45px;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 65px;
+  grid-gap: 115px;
+  text-align: center;
+}
+.all-mod .button-model {
+  width: 220px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  font-size: 20px;
+  padding: 15px;
+  transition: all 0.4s;
+}
+.all-mod .button-model:hover {
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+  color: #fff;
+}
+.all-mod .button-all-model {
+  width: 120px;
+  margin: 0px 5px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+}
+.all-mod .button-all-model:hover {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  transition: 0.4s;
 }
 
 /*# sourceMappingURL=style.css.map */

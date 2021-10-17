@@ -1,0 +1,18 @@
+.carousel-caption{
+font-weight: bold;
+transition: .24s;
+   h5{
+    text-align: left;
+       font-size:65px ;
+
+   }
+   p{
+    text-align: left;
+     font-size: 26px;
+     
+   }
+    
+   &:hover{
+       color: #ff0000;
+   }
+}
